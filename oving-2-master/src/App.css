@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  background-color: rgb(252, 244, 231);
+}
+
+.Input{
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  margin-right: 5vw;
+  width: 40vw;
+  overflow-wrap: break-word;
+}
+
+.Languages {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.CommitGraph{
+  margin-bottom: 20vh;
+  margin-top: 6vh;
+  padding-bottom: 10px;
+}
+
+
+
+.ListRepo {
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+  margin-right: 5vw;
+  width: 40vw;
+  overflow-wrap: break-word;
+  overflow-y:hidden
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+  .ListRepo{
+    max-height: 40vh;
+    width: 40vw;
+    margin-right: 4vw;
+  }
+  .Languages{
+    height: 40vh;
+    width: 70vw;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+  }
+  .CommitGraph{
+    width: 80vw;
+    margin-bottom: 25vh;
+    margin-top: 8vh;
+    padding-bottom: 10px;
+  }
+}
